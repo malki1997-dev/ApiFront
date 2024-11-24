@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\PROJETS\\APIfront\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DA49CBA8-053A-479C-85CA-E84E0DF0B781}|APIfront\\APIfront.csproj|c:\\users\\dell\\desktop\\projets\\apifront\\apifront\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA49CBA8-053A-479C-85CA-E84E0DF0B781}|APIfront\\APIfront.csproj|solutionrelative:apifront\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\PROJETS\\APIfront\\APIfront\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "APIfront\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\PROJETS\\APIfront\\APIfront\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "APIfront\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAAAEgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T15:28:25.393Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
