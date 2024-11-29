@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\PROJETS\\APIfront\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DA49CBA8-053A-479C-85CA-E84E0DF0B781}|APIfront\\APIfront.csproj|c:\\users\\dell\\desktop\\projets\\apifront\\apifront\\controllers\\usertaskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA49CBA8-053A-479C-85CA-E84E0DF0B781}|APIfront\\APIfront.csproj|solutionrelative:apifront\\controllers\\usertaskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DA49CBA8-053A-479C-85CA-E84E0DF0B781}|APIfront\\APIfront.csproj|c:\\users\\dell\\desktop\\projets\\apifront\\apifront\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA49CBA8-053A-479C-85CA-E84E0DF0B781}|APIfront\\APIfront.csproj|solutionrelative:apifront\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA49CBA8-053A-479C-85CA-E84E0DF0B781}|APIfront\\APIfront.csproj|c:\\users\\dell\\desktop\\projets\\apifront\\apifront\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA49CBA8-053A-479C-85CA-E84E0DF0B781}|APIfront\\APIfront.csproj|solutionrelative:apifront\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UserTaskController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\PROJETS\\APIfront\\APIfront\\Controllers\\UserTaskController.cs",
+              "RelativeDocumentMoniker": "APIfront\\Controllers\\UserTaskController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\PROJETS\\APIfront\\APIfront\\Controllers\\UserTaskController.cs",
+              "RelativeToolTip": "APIfront\\Controllers\\UserTaskController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T14:34:26.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\PROJETS\\APIfront\\APIfront\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "APIfront\\Controllers\\AdminController.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\PROJETS\\APIfront\\APIfront\\Controllers\\AdminController.cs",
               "RelativeToolTip": "APIfront\\Controllers\\AdminController.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAAAEgAAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T15:28:25.393Z",
+              "WhenOpened": "2024-11-29T14:34:22.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\PROJETS\\APIfront\\APIfront\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "APIfront\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\PROJETS\\APIfront\\APIfront\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "APIfront\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAwEAAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T13:34:56.305Z",
               "EditorCaption": ""
             }
           ]

@@ -83,6 +83,19 @@ builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("Jwt"))
 //****** pour configurer HashPassword
 builder.Services.AddScoped<IPasswordHasher, HashPassword>();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAnyOrigin",
+        builder =>
+        {
+            builder.WithOrigins("https://localhost:7184") // Ajoutez ici toutes les autres origines autorisées si nécessaire
+                   .AllowAnyHeader()
+                   .AllowAnyMethod();
+        });
+});
+
+builder.WebHost.UseUrls("https://localhost:7184");
+
 
 var app = builder.Build();
 
@@ -92,6 +105,14 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors("AllowAnyOrigin");
+
+app.UseCors(options => {
+    options.AllowAnyHeader();
+    options.AllowAnyMethod();
+    options.AllowAnyOrigin();
+});
 
 app.UseHttpsRedirection();
 

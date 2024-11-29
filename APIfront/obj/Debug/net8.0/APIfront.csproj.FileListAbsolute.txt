@@ -142,3 +142,4 @@ C:\Users\DELL\Desktop\PROJETS\APIfront\APIfront\bin\Debug\net8.0\runtimes\win\li
 C:\Users\DELL\Desktop\PROJETS\APIfront\APIfront\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\DELL\Desktop\PROJETS\APIfront\APIfront\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\DELL\Desktop\PROJETS\APIfront\APIfront\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\DELL\Desktop\PROJETS\APIfront\APIfront\obj\Debug\net8.0\APIfront.sourcelink.json
