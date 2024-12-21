@@ -195,11 +195,5 @@ namespace APIfront.Controllers
 
             return Ok(new { Message = "Tâche supprimée avec succès." });
         }
-
-
-
-
-
-
     }
 }

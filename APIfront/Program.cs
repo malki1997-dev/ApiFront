@@ -106,7 +106,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseCors("AllowAnyOrigin");
+
 
 app.UseCors(options => {
     options.AllowAnyHeader();
@@ -116,8 +116,10 @@ app.UseCors(options => {
 
 app.UseHttpsRedirection();
 
-// Ajout de UseAuthentication avant UseAuthorization
-app.UseAuthentication(); // C'est ici que l'authentification doit être ajoutée
+app.UseCors("AllowAnyOrigin");
+
+
+app.UseAuthentication(); 
 
 app.UseAuthorization();
 

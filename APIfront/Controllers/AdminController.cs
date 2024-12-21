@@ -26,18 +26,20 @@ namespace APIfront.Controllers
         [HttpGet("users")]
         public async Task<IActionResult> GetAllUsers()
         {
-            // Récupérer tous les utilisateurs
+            // Récupérer tous les utilisateurs sauf ceux avec le rôle "user"
             var users = await _context.Users
-                                      .Select(u => new
-                                      {
-                                          u.Id,
-                                          u.Username,
-                                          u.Role
-                                      }).ToListAsync();
-                                     
+                                       .Where(u => u.Role == "user")  // Filtrer les utilisateurs dont le rôle n'est pas "user"
+                                       .Select(u => new
+                                       {
+                                           u.Id,
+                                           u.Username,
+                                           u.Role
+                                       })
+                                       .ToListAsync();
 
             return Ok(users);
         }
+
 
         //******* SUPRIMER UN UTILISATEUR ET SES TACHES 
 
